@@ -1,0 +1,101 @@
+body {
+    margin: 50px;
+    background-color: #23252C;
+
+}
+
+.info--profile-img{
+    width: 320px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: -4px;
+}
+.app-container{
+    justify-self: center;
+    max-width: 320px;
+}
+
+.app--content{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 25px 35px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: #1A1B21;
+
+}
+.info--container{
+    justify-items: center;
+}
+.info--name-title{
+    margin: 0;
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+.info--website-link{
+    display: flex;
+    align-items: center;
+}
+
+.info--job-title{
+    margin: 0;
+    color: #F3BF99;
+    font-size: 13px;
+}
+
+.info--website-link > p {
+    margin-left: 5px;
+    font-size: 10px;
+    
+
+}
+a.info--website-link {
+    color: inherit; 
+    text-decoration: none;
+}
+
+.app--btn{
+    margin: 10px 0 30px 0;
+}
+.app--btn-left{
+    margin-right: 18px;
+}
+
+.about-container{
+    margin-bottom: 20px;
+}
+
+.about-container > h3{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.about-container > p{
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.interests-container{
+    margin-bottom: 20px;
+}
+
+.interests-container > h3{
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.interests-container > p{
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+footer {
+    display: flex;
+    background-color: #161619;
+    padding: 20px 40px;
+    justify-content: space-around;
+    border-radius: 0 0 10px 10px;
+}
