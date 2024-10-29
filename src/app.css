@@ -5,7 +5,7 @@ body {
 }
 
 .info--profile-img{
-    width: 320px;
+    max-width: 320px;
     border-radius: 10px 10px 0 0;
     margin-bottom: -4px;
 }
